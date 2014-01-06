@@ -1,3 +1,7 @@
 name: Your New Jekyll Site
 markdown: redcarpet
 pygments: true
+
+tagline: "Inspired by Daux.io, powered by Jekyll."
+image: "img/app.png"
+repo: "davidzchen/dauxyll"
