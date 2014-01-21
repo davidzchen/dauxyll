@@ -8,7 +8,9 @@ title: "Dauxyll"
 </p>
 
 <hr/>
+
 <h3>Features</h3>
+
 <hr/>
 
 <img src="img/app-thumbs.png" alt="alt text" class="pull-right" style="margin-bottom:20px;">

@@ -6365,6 +6365,16 @@ Homepage
   background-color: #c64641;
   color: #f7f7f7;
 }
+.homepage-header.container-fluid {
+  margin-top: 50px;
+  padding: 20px 0px;
+  background-color: #eeeeee;
+}
+.homepage-header.container-fluid .page-header {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  border: 0px !important;
+}
 .homepage-content.container-fluid {
   background-color: white;
   padding: 40px 0px;
