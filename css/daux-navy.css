@@ -181,7 +181,7 @@ textarea {
   img {
     max-width: 100% !important;
   }
-  @page  {
+  @page {
     margin: 0.5cm;
   }
   p,
@@ -6546,7 +6546,6 @@ body {
   }
   td {
     /* Behave  like a "row" */
-  
     border: none;
     border-bottom: 1px solid #eee;
     position: relative;
@@ -6556,10 +6555,8 @@ body {
   }
   td:before {
     /* Now like a table header */
-  
     position: absolute;
     /* Top/left values mimic padding */
-  
     top: 6px;
     left: 6px;
     width: 45%;
@@ -6569,8 +6566,8 @@ body {
     font-weight: bold;
   }
   /*
-  	Label the data
-  	*/
+	Label the data
+	*/
   td:before {
     content: attr(data-title);
   }
@@ -6667,6 +6664,15 @@ code {
     margin-right: 0px;
   }
 }
+.navbar .nav > li > a {
+  color: #7795b4;
+  text-shadow: none;
+}
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:hover,
+.navbar .nav > li > a:active {
+  color: #7795b4;
+}
 .nav.nav-list {
   padding-left: 0px;
   padding-right: 0px;
@@ -6732,7 +6738,6 @@ code {
 .page-header h1 {
   margin-top: 0px;
 }
-/* To be applied to the  same element as page-header for sites that have sub-heading content such as Last modified time */
 .page-header .sub-heading {
   padding: 0px, 0px, 20px;
 }
